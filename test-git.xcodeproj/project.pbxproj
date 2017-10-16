@@ -22,6 +22,7 @@
 		4BD9BCAF1F94E08A002F201A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BD9BCB21F94E08A002F201A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BD9BCB41F94E08A002F201A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BFA01191F94E84E00CE9A6A /* arbreDeGit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arbreDeGit.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +36,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4BADCA571F94E8050008E510 /* ressources */ = {
+			isa = PBXGroup;
+			children = (
+				4BFA01191F94E84E00CE9A6A /* arbreDeGit.png */,
+			);
+			path = ressources;
+			sourceTree = "<group>";
+		};
 		4BD9BC9C1F94E08A002F201A = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +63,7 @@
 		4BD9BCA71F94E08A002F201A /* test-git */ = {
 			isa = PBXGroup;
 			children = (
+				4BADCA571F94E8050008E510 /* ressources */,
 				4BD9BCA81F94E08A002F201A /* AppDelegate.swift */,
 				4BD9BCAA1F94E08A002F201A /* ViewController.swift */,
 				4BD9BCAC1F94E08A002F201A /* Main.storyboard */,
